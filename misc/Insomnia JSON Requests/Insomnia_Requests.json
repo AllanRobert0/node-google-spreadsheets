@@ -1,0 +1,140 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2020-10-01T02:18:11.887Z",
+  "__export_source": "insomnia.desktop.app:v2020.4.1",
+  "resources": [
+    {
+      "_id": "req_09ba339639d44182b74e0bd7050fbee7",
+      "parentId": "fld_54c24bf4d8a44cd5a8d3c0af4bcea8f9",
+      "modified": 1601518254905,
+      "created": 1601512861620,
+      "url": "http://localhost:3000/item/delete/20201001T010906255Z",
+      "name": "Delete Item",
+      "description": "",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1601512861621,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_54c24bf4d8a44cd5a8d3c0af4bcea8f9",
+      "parentId": "wrk_a297deff8a9b49dfa41b1c2c490bd8ac",
+      "modified": 1601434210311,
+      "created": 1601434210311,
+      "name": "Api-Spreadsheets",
+      "description": "",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1601434210311,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_a297deff8a9b49dfa41b1c2c490bd8ac",
+      "parentId": null,
+      "modified": 1594926776017,
+      "created": 1594926776017,
+      "name": "Imported Workspace",
+      "description": "",
+      "scope": null,
+      "_type": "workspace"
+    },
+    {
+      "_id": "req_5b066b3411734120816ba3e2b0630189",
+      "parentId": "fld_54c24bf4d8a44cd5a8d3c0af4bcea8f9",
+      "modified": 1601518667855,
+      "created": 1601439065730,
+      "url": "http://localhost:3000/item/add",
+      "name": "Add Item",
+      "description": "",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n\t\t\"name\": \" Item Test 1\",\n    \"qtd_remaing\": \"10\",\n    \"price\": \"50\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json",
+          "id": "pair_0ea12646331e4e869e4c7b52f80c03ae"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1601439065730,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_6ec15cfc9e624bc49f4f32f2c5265763",
+      "parentId": "fld_54c24bf4d8a44cd5a8d3c0af4bcea8f9",
+      "modified": 1601434222600,
+      "created": 1601434219663,
+      "url": "http://localhost:3000/item/list",
+      "name": "List Items",
+      "description": "",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1601434219663,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "env_65fd7f8feea0c55c8ecd45190f980cb2e4fd6d3c",
+      "parentId": "wrk_a297deff8a9b49dfa41b1c2c490bd8ac",
+      "modified": 1598965780642,
+      "created": 1598965780642,
+      "name": "Base Environment",
+      "data": {},
+      "dataPropertyOrder": null,
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1598965780642,
+      "_type": "environment"
+    },
+    {
+      "_id": "jar_65fd7f8feea0c55c8ecd45190f980cb2e4fd6d3c",
+      "parentId": "wrk_a297deff8a9b49dfa41b1c2c490bd8ac",
+      "modified": 1598965780647,
+      "created": 1598965780647,
+      "name": "Default Jar",
+      "cookies": [],
+      "_type": "cookie_jar"
+    },
+    {
+      "_id": "spc_4d838d1781e84f0dbd4159ceac65b0d4",
+      "parentId": "wrk_a297deff8a9b49dfa41b1c2c490bd8ac",
+      "modified": 1594926776019,
+      "created": 1594926776019,
+      "fileName": "Imported Workspace",
+      "contents": "",
+      "contentType": "yaml",
+      "_type": "api_spec"
+    }
+  ]
+}
