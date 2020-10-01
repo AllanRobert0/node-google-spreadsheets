@@ -24,7 +24,6 @@ git clone https://github.com/AllanRobert0/node-google-spreadsheets.git
 npm install
 ```
 3. [Enable your Google Spreadsheets API](https://developers.google.com/sheets/api/quickstart/go) and get the `credentials.json` file.
-```JS
 
 4. Add an Documment ID (find it in your browser's URL bar by looking at the spreadsheet) into `.env` file.
 
